@@ -28,7 +28,7 @@ def initial_round
   sum
 end
 
-def hit(total)
+def hit?(total)
   prompt_user
   input = get_user_input
   
